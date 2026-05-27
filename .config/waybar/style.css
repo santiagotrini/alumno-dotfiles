@@ -65,13 +65,13 @@ button:hover {
 }
 
 #clock {
-    color: @cyn;
-    border-bottom: 4px solid @cyn;
+    color: @grn;
+    border-bottom: 4px solid @grn;
 }
 
 #battery {
-    color: @mag;
-    border-bottom: 4px solid @mag;
+    color: @cyn;
+    border-bottom: 4px solid @cyn;
 }
 
 #disk {

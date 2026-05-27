@@ -25,6 +25,8 @@
         "custom/sep",
         "disk",
         "custom/sep",
+        "battery",
+        "custom/sep",
         "clock",
         "custom/sep",
         "tray"
@@ -73,7 +75,7 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "Bat: {capacity}% {icon} {time}",
+        "format": "{capacity}% {icon}",
         "format-plugged": "{capacity}% ",
         "format-alt": "Bat {capacity}%",
         "format-time": "{H}:{M}",

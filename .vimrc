@@ -1,5 +1,6 @@
 set nocp
 set number
+set relativenumber
 set expandtab
 set tabstop=2
 set shiftwidth=2
@@ -17,8 +18,11 @@ Plug 'honza/vim-snippets'
 call plug#end() 
 
 let g:snipMate = { 'snippet_version' : 1 }
-let g:user_emmet_expandabbr_key = '<Tab>'
-imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
+
+" let g:user_emmet_expandabbr_key = '<tab>'
+" imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
+
+
 
 
 set termguicolors
